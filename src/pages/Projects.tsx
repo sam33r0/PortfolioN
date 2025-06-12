@@ -1,9 +1,7 @@
-import { useNavigate } from "react-router-dom";
 
 function Projects() {
-    const navigate = useNavigate();
   return (
-    <div className="min-h-screen p-6 bg-gray-50">
+    <div className="min-h-screen p-6 bg-gray-50 pt-10">
       <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
       <div className="grid gap-6 max-w-5xl mx-auto md:grid-cols-2">
         {/* Project 1 */}
@@ -26,23 +24,18 @@ function Projects() {
         <div className="p-5 rounded-2xl shadow bg-white">
           <h3 className="text-xl font-semibold mb-2">trustBUZZaar – Shopify Store</h3>
           <p className="text-gray-700">
-            Launched and managed a dropshipping store. Designed store layout, optimized for conversions, and handled ad creatives and Facebook marketing.
+            Launched and managed a Shopify store. Designed store layout, optimized for conversions, and handled ad creatives and Facebook marketing.
           </p>
         </div>
 
         {/* Project 4 */}
         <div className="p-5 rounded-2xl shadow bg-white">
-          <h3 className="text-xl font-semibold mb-2">Relay Race Game (Internship)</h3>
+          <h3 className="text-xl font-semibold mb-2">FOG Technologies (Internship)</h3>
           <p className="text-gray-700">
             Built core game logic in Node.js and integrated it with frontend components. Worked on game mechanics, UI/UX, and performance optimization.
           </p>
         </div>
       </div>
-      <button className='bg-blue-400 p-1 rounded-md hover:cursor-pointer' onClick={()=>{
-            navigate(-1)
-        }}>
-            Back
-        </button>
     </div>
   );
 }
