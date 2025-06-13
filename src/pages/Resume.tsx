@@ -1,8 +1,8 @@
 function Resume() {
   return (
-    <div className="min-h-screen p-6 flex flex-col items-center bg-white">
-      <h2 className="text-3xl font-bold mb-4">Resume</h2>
-      <p className="text-gray-700 mb-6 text-center max-w-xl">
+    <div className="min-h-screen p-6 flex flex-col items-center bg-gradient-to-b from-slate-800 via-lime-200 to-slate-400">
+      <h2 className="text-3xl font-bold text-white mb-4">Resume</h2>
+      <p className="text-gray-100 mb-6 text-center max-w-xl">
         I'm a frontend developer with strong MERN stack skills and a proven entrepreneurial mindset. Below is a snapshot of my background, or you can download the full resume.
       </p>
       <a
