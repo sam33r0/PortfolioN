@@ -39,13 +39,12 @@ export default function Home() {
             "வணக்கம் (Vanakkam)",
             "నమస్కారం (Namaskaram)",
             "ನಮಸ್ಕಾರ (Namaskara)",
-            "السلام عليكم (As-salamu alaykum)",
             "こんにちは (Konnichiwa)",
           ]}
         />
 
         <p className="text-gray-800 text-lg mt-4">
-          I craft responsive, accessible websites using React, TypeScript & Tailwind.
+          I'm Sameer Srivastava. I’ve launched real-world products like trustBUZZaar, built full-stack MERN projects, and developed gameplay logic and made pixel perfect UI during my internship at FOG Technologies
         </p>
         {/* <div className="mt-6 flex justify-center space-x-4">
           <Link
@@ -99,6 +98,12 @@ export default function Home() {
             className="px-6 py-2 hover:scale-110 rounded-lg bg-white text-slate-900 font-semibold hover:bg-amber-200 hover:text-black transition shadow-sm"
           >
             More About Me
+          </Link>
+          <Link
+            to="https://github.com/sam33r0"
+            className="px-6 py-2 rounded-lg text-black font-bold bg-gradient-to-r from-lime-200 to-rose-300 hover:scale-110 shadow-md transition"
+          >
+            Github
           </Link>
         </div>
 
